@@ -25,6 +25,11 @@
 		B37D552B19DE33EB0081D94D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37D550319DE33EB0081D94D /* UIKit.framework */; };
 		B37D553319DE33EB0081D94D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B37D553119DE33EB0081D94D /* InfoPlist.strings */; };
 		B37D553519DE33EB0081D94D /* ScambleWordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B37D553419DE33EB0081D94D /* ScambleWordTests.m */; };
+		B37D554419DE34C60081D94D /* A.png in Resources */ = {isa = PBXBuildFile; fileRef = B37D553E19DE34C60081D94D /* A.png */; };
+		B37D554519DE34C60081D94D /* B.png in Resources */ = {isa = PBXBuildFile; fileRef = B37D553F19DE34C60081D94D /* B.png */; };
+		B37D554619DE34C60081D94D /* C.png in Resources */ = {isa = PBXBuildFile; fileRef = B37D554019DE34C60081D94D /* C.png */; };
+		B37D554719DE34C60081D94D /* D.png in Resources */ = {isa = PBXBuildFile; fileRef = B37D554119DE34C60081D94D /* D.png */; };
+		B37D554819DE34C60081D94D /* libLexicontext.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B37D554219DE34C60081D94D /* libLexicontext.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +59,7 @@
 		B37D551919DE33EB0081D94D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B37D551A19DE33EB0081D94D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B37D551C19DE33EB0081D94D /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
-		B37D551D19DE33EB0081D94D /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		B37D551D19DE33EB0081D94D /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; tabWidth = 3; };
 		B37D551F19DE33EB0081D94D /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		B37D552119DE33EB0081D94D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B37D552719DE33EB0081D94D /* ScambleWordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScambleWordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +67,12 @@
 		B37D553019DE33EB0081D94D /* ScambleWordTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScambleWordTests-Info.plist"; sourceTree = "<group>"; };
 		B37D553219DE33EB0081D94D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B37D553419DE33EB0081D94D /* ScambleWordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScambleWordTests.m; sourceTree = "<group>"; };
+		B37D553E19DE34C60081D94D /* A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A.png; sourceTree = "<group>"; };
+		B37D553F19DE34C60081D94D /* B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B.png; sourceTree = "<group>"; };
+		B37D554019DE34C60081D94D /* C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C.png; sourceTree = "<group>"; };
+		B37D554119DE34C60081D94D /* D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D.png; sourceTree = "<group>"; };
+		B37D554219DE34C60081D94D /* libLexicontext.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLexicontext.a; sourceTree = "<group>"; };
+		B37D554319DE34C60081D94D /* Lexicontext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lexicontext.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +84,7 @@
 				B37D550419DE33EB0081D94D /* UIKit.framework in Frameworks */,
 				B37D550619DE33EB0081D94D /* SpriteKit.framework in Frameworks */,
 				B37D550019DE33EB0081D94D /* Foundation.framework in Frameworks */,
+				B37D554819DE34C60081D94D /* libLexicontext.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +153,12 @@
 		B37D550819DE33EB0081D94D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B37D553E19DE34C60081D94D /* A.png */,
+				B37D553F19DE34C60081D94D /* B.png */,
+				B37D554019DE34C60081D94D /* C.png */,
+				B37D554119DE34C60081D94D /* D.png */,
+				B37D554219DE34C60081D94D /* libLexicontext.a */,
+				B37D554319DE34C60081D94D /* Lexicontext.h */,
 				B37D550919DE33EB0081D94D /* ScambleWord-Info.plist */,
 				B37D550A19DE33EB0081D94D /* InfoPlist.strings */,
 				B37D550D19DE33EB0081D94D /* main.m */,
@@ -244,8 +262,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B37D552019DE33EB0081D94D /* Spaceship.png in Resources */,
+				B37D554519DE34C60081D94D /* B.png in Resources */,
 				B37D552219DE33EB0081D94D /* Images.xcassets in Resources */,
+				B37D554619DE34C60081D94D /* C.png in Resources */,
 				B37D551819DE33EB0081D94D /* Main_iPad.storyboard in Resources */,
+				B37D554419DE34C60081D94D /* A.png in Resources */,
+				B37D554719DE34C60081D94D /* D.png in Resources */,
 				B37D551519DE33EB0081D94D /* Main_iPhone.storyboard in Resources */,
 				B37D550C19DE33EB0081D94D /* InfoPlist.strings in Resources */,
 			);
@@ -407,6 +429,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScambleWord/ScambleWord-Prefix.pch";
 				INFOPLIST_FILE = "ScambleWord/ScambleWord-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScambleWord",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -421,6 +447,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScambleWord/ScambleWord-Prefix.pch";
 				INFOPLIST_FILE = "ScambleWord/ScambleWord-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScambleWord",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;

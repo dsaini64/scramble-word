@@ -8,7 +8,17 @@
 
 #import "MyScene.h"
 
+@interface MyScene ()
+
+@property (nonatomic, strong) SKSpriteNode *background;
+@property (nonatomic, strong) SKSpriteNode *selectedNode;
+static NSString * const kLetter = @"movable";
+
+@end
+
 @implementation MyScene
+
+
 
 -(id)initWithSize:(CGSize)size {    
     if (self = [super initWithSize:size]) {
